@@ -1,0 +1,5 @@
+
+LOGGING_DIR = $(GIT_ROOT)/logging/src
+SOURCEFILES += $(LOGGING_DIR)/logging.c 
+VPATH += $(LOGGING_DIR)
+INCLUDES += $(LOGGING_DIR)
